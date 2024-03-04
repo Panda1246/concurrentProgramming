@@ -1,3 +1,5 @@
+using Microsoft.VisualStudio.TestPlatform.TestHost;
+
 namespace MainTest
 {
     [TestClass]
@@ -7,6 +9,8 @@ namespace MainTest
         public void TestMethod1()
         {
             Assert.IsTrue(true);
+            
+           
         }
     }
 }

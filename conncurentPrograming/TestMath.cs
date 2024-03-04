@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace conncurentPrograming
 {
-    internal class TestMath
+    public class TestMath
     {
-        public static int mathPow(int baseNumber, int exponent)
+        public int mathPow(int baseNumber, int exponent)
         {
 
             if (exponent == 0 && baseNumber == 0)
